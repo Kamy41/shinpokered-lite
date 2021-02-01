@@ -306,7 +306,7 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, STOMP
+	db 31, STOMP
 	db 0
 
 LickitungEvosMoves:
@@ -327,7 +327,8 @@ ExeggcuteEvosMoves:
 ; Learnset
 	db 25, REFLECT
 	db 28, LEECH_SEED
-	db 32, STUN_SPORE
+	db 31, CONFUSION
+	db 34, STUN_SPORE
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
@@ -486,6 +487,7 @@ ScytherEvosMoves:
 	db 29, SLASH
 	db 35, SWORDS_DANCE
 	db 42, AGILITY
+	db 50, WING_ATTACK
 	db 0
 
 StaryuEvosMoves:
@@ -518,6 +520,7 @@ PinsirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 21, COUNTER
 	db 25, SEISMIC_TOSS
 	db 30, GUILLOTINE
 	db 36, FOCUS_ENERGY
@@ -530,7 +533,8 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, ABSORB
+	db 24, ABSORB
+	db 28, VINE_WHIP
 	db 32, POISONPOWDER
 	db 36, STUN_SPORE
 	db 39, SLEEP_POWDER
@@ -616,6 +620,7 @@ KadabraEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 18, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
@@ -1126,9 +1131,9 @@ KabutoEvosMoves:
 	db 0
 ; Learnset
 	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 39, LEER
+	db 44, MEGA_DRAIN
+	db 49, ROCK_SLIDE
 	db 0
 
 KabutopsEvosMoves:
@@ -1136,9 +1141,10 @@ KabutopsEvosMoves:
 	db 0
 ; Learnset
 	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 39, LEER
+	db 40, SLASH
+	db 46, MEGA_DRAIN
+	db 53, ROCK_SLIDE
 	db 0
 
 HorseaEvosMoves:
@@ -1147,7 +1153,7 @@ HorseaEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, LEER
+	db 24, FOCUS_ENERGY
 	db 30, WATER_GUN
 	db 37, AGILITY
 	db 45, HYDRO_PUMP
@@ -1158,7 +1164,7 @@ SeadraEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, LEER
+	db 24, FOCUS_ENERGY
 	db 30, WATER_GUN
 	db 41, AGILITY
 	db 52, HYDRO_PUMP
@@ -1204,20 +1210,21 @@ OmanyteEvosMoves:
 	db EV_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
+	db 34, BITE
 	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 44, ROCK_THROW
+	db 49, HYDRO_PUMP
 	db 0
 
 OmastarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
+	db 34, BITE
 	db 39, LEER
-	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 40, SPIKE_CANNON
+	db 46, ROCK_THROW
+	db 53, HYDRO_PUMP
 	db 0
 
 JigglypuffEvosMoves:
@@ -1376,13 +1383,14 @@ KakunaEvosMoves:
 	db EV_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
+	db 10, FURY_ATTACK
 	db 16, FOCUS_ENERGY
 	db 20, TWINEEDLE
 	db 25, RAGE
@@ -1477,13 +1485,14 @@ MetapodEvosMoves:
 	db EV_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, CONFUSION
+	db 10, CONFUSION
 	db 15, POISONPOWDER
 	db 16, STUN_SPORE
 	db 17, SLEEP_POWDER
@@ -1703,6 +1712,7 @@ AlakazamEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 18, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
